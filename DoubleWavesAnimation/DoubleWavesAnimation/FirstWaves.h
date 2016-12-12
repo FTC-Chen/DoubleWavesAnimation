@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DoubleWaves.h
 //  DoubleWavesAnimation
 //
 //  Created by anyongxue on 2016/12/12.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface FirstWaves : UIView
 
 @end
-

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7BCC88031DF2BA56008BA784"
+               BlueprintIdentifier = "7B10D25A1DFE391F00DC90C6"
                BuildableName = "DoubleWavesAnimation.app"
                BlueprintName = "DoubleWavesAnimation"
                ReferencedContainer = "container:DoubleWavesAnimation.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7BCC881C1DF2BA58008BA784"
+               BlueprintIdentifier = "7B10D2731DFE391F00DC90C6"
                BuildableName = "DoubleWavesAnimationTests.xctest"
                BlueprintName = "DoubleWavesAnimationTests"
                ReferencedContainer = "container:DoubleWavesAnimation.xcodeproj">
@@ -42,7 +42,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7BCC88271DF2BA58008BA784"
+               BlueprintIdentifier = "7B10D27E1DFE391F00DC90C6"
                BuildableName = "DoubleWavesAnimationUITests.xctest"
                BlueprintName = "DoubleWavesAnimationUITests"
                ReferencedContainer = "container:DoubleWavesAnimation.xcodeproj">
@@ -52,7 +52,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7BCC88031DF2BA56008BA784"
+            BlueprintIdentifier = "7B10D25A1DFE391F00DC90C6"
             BuildableName = "DoubleWavesAnimation.app"
             BlueprintName = "DoubleWavesAnimation"
             ReferencedContainer = "container:DoubleWavesAnimation.xcodeproj">
@@ -75,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7BCC88031DF2BA56008BA784"
+            BlueprintIdentifier = "7B10D25A1DFE391F00DC90C6"
             BuildableName = "DoubleWavesAnimation.app"
             BlueprintName = "DoubleWavesAnimation"
             ReferencedContainer = "container:DoubleWavesAnimation.xcodeproj">
@@ -94,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7BCC88031DF2BA56008BA784"
+            BlueprintIdentifier = "7B10D25A1DFE391F00DC90C6"
             BuildableName = "DoubleWavesAnimation.app"
             BlueprintName = "DoubleWavesAnimation"
             ReferencedContainer = "container:DoubleWavesAnimation.xcodeproj">
