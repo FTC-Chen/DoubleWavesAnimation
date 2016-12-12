@@ -112,7 +112,7 @@
     CGPathMoveToPoint(path, nil, 0, y);
     
     for (NSInteger i =0.0f; i<=WavesWidth; i++) {
-        //正玄波浪公式
+        //余弦函数波浪公式
         y = waveA * cos(waveW * i+ offsetX)+currentK;
         //将点连成线
         CGPathAddLineToPoint(path, nil, i, y);
