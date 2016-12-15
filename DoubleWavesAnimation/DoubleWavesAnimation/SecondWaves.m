@@ -93,8 +93,6 @@
     
 
     //设置波浪纵向位置
-    //currentK = self.frame.size.height/2;//屏幕居中
-    
     currentK = self.frame.size.height/2;//屏幕居中
     
     //启动定时器
@@ -121,9 +119,20 @@
     //将点移动到 x=0,y=currentK的位置
     CGPathMoveToPoint(path, nil, 0, y);
     
+    NSLog(@"~~~~~~~~~~~~~%f",waveW);
+    
+    
+    NSLog(@"--------222222222222%f",offsetX);
+    
     for (NSInteger i =0.0f; i<=WavesWidth; i++) {
         //余弦函数波浪公式
-        y = waveA * cos(waveW * i+ offsetX)+currentK;
+        y = waveA * cos(waveW*i + offsetX)+currentK;
+        
+        //如果需要正弦函数的峰顶和余弦函数的峰底对应,可以替换成下方公式均可
+        //y = waveA * cos(waveW*i + offsetX+M_PI_2)+currentK;
+        
+        //y = waveA * sin(-(waveW*i + offsetX))+currentK;
+    
         //将点连成线
         CGPathAddLineToPoint(path, nil, i, y);
     }

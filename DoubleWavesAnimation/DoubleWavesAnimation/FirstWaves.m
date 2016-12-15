@@ -30,7 +30,7 @@
 
 /*
  y =Asin（ωx+φ）+C
- A 表示振幅，也就是使用这个变量来调整波浪的高度
+ A表示振幅，也就是使用这个变量来调整波浪的高度
  ω表示周期，也就是使用这个变量来调整在屏幕内显示的波浪的数量
  φ表示波浪横向的偏移，也就是使用这个变量来调整波浪的流动
  C表示波浪纵向的位置，也就是使用这个变量来调整波浪在屏幕中竖直的位置。
@@ -88,9 +88,8 @@
     waveA = 12;
     //设置周期
     waveW = 0.5/30.0;
-    //设置波浪纵向位置
-    //currentK = self.frame.size.height/2;//屏幕居中
     
+    //设置波浪纵向位置
     currentK = self.frame.size.height/2;//屏幕居中
     
     //启动定时器
@@ -116,6 +115,10 @@
     CGFloat y = currentK;
     //将点移动到 x=0,y=currentK的位置
     CGPathMoveToPoint(path, nil, 0, y);
+    
+    NSLog(@"--------%f",waveW);
+    
+    NSLog(@"11111111--------%f",offsetX);
 
     for (NSInteger i =0.0f; i<=WavesWidth; i++) {
         //正弦函数波浪公式
@@ -124,6 +127,8 @@
         //将点连成线
         CGPathAddLineToPoint(path, nil, i, y);
     }
+    
+    NSLog(@"11111111--------%f",offsetX);
     
     CGPathAddLineToPoint(path, nil, WavesWidth, 0);
     CGPathAddLineToPoint(path, nil, 0, 0);

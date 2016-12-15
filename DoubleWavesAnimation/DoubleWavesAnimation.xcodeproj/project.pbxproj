@@ -229,6 +229,7 @@
 				TargetAttributes = {
 					7B10D25A1DFE391F00DC90C6 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 2L98437J77;
 						ProvisioningStyle = Automatic;
 					};
 					7B10D2731DFE391F00DC90C6 = {
@@ -450,10 +451,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 2L98437J77;
 				INFOPLIST_FILE = DoubleWavesAnimation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cc.DoubleWavesAnimation;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunac.RongYDLearn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -462,10 +463,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 2L98437J77;
 				INFOPLIST_FILE = DoubleWavesAnimation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cc.DoubleWavesAnimation;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunac.RongYDLearn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
