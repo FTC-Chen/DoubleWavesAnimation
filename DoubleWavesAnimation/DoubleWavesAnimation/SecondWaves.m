@@ -52,7 +52,7 @@
     //设置波浪的宽度
     WavesWidth = self.frame.size.width;
     
-    //第一个波浪颜色
+    //第二个波浪颜色
     self.secondWavesColor = [UIColor colorWithRed:86/255.0f green:202/255.0f blue:139/255.0f alpha:1];
     
     //设置波浪的速度
@@ -77,19 +77,19 @@
     
     
     //同正弦函数相同,无交错效果
-//    wavesSpeed = 0.02;
-//    //设置振幅
-//    waveA = 12;
-//    //设置周期
-//    waveW = 0.5/30.0;
+    wavesSpeed = 0.02;
+    //设置振幅
+    waveA = 12;
+    //设置周期
+    waveW = 0.5/30.0;
     
     //同正弦函数不同,会有交错效果
     //设置波浪流动速度
-    wavesSpeed = 0.04;
+    //wavesSpeed = 0.04;
     //设置振幅
-    waveA = 13;
+    //waveA = 13;
     //设置周期
-    waveW = 0.5/30.0;
+    //waveW = 0.5/30.0;
     
 
     //设置波浪纵向位置

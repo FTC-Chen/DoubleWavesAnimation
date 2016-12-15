@@ -40,7 +40,8 @@
     [self.view addSubview:self.secondWare];
     
 
-    [NSTimer scheduledTimerWithTimeInterval:5 target:self selector:@selector(animateWave) userInfo:nil repeats:YES];
+    //是否有震荡效果
+    //[NSTimer scheduledTimerWithTimeInterval:5 target:self selector:@selector(animateWave) userInfo:nil repeats:YES];
 }
 
 
