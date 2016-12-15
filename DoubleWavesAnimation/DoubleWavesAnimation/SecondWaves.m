@@ -77,19 +77,19 @@
     
     
     //同正弦函数相同,无交错效果
-    wavesSpeed = 0.02;
+    //wavesSpeed = 0.02;
     //设置振幅
-    waveA = 12;
+    //waveA = 12;
     //设置周期
-    waveW = 0.5/30.0;
+    //waveW = 0.5/30.0;
     
     //同正弦函数不同,会有交错效果
     //设置波浪流动速度
-    //wavesSpeed = 0.04;
+    wavesSpeed = 0.04;
     //设置振幅
-    //waveA = 13;
+    waveA = 13;
     //设置周期
-    //waveW = 0.5/30.0;
+    waveW = 0.5/30.0;
     
 
     //设置波浪纵向位置
@@ -118,11 +118,6 @@
     CGFloat y = currentK;
     //将点移动到 x=0,y=currentK的位置
     CGPathMoveToPoint(path, nil, 0, y);
-    
-    NSLog(@"~~~~~~~~~~~~~%f",waveW);
-    
-    
-    NSLog(@"--------222222222222%f",offsetX);
     
     for (NSInteger i =0.0f; i<=WavesWidth; i++) {
         //余弦函数波浪公式

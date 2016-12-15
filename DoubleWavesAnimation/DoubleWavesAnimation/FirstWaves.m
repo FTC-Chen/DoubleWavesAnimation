@@ -115,10 +115,6 @@
     CGFloat y = currentK;
     //将点移动到 x=0,y=currentK的位置
     CGPathMoveToPoint(path, nil, 0, y);
-    
-    NSLog(@"--------%f",waveW);
-    
-    NSLog(@"11111111--------%f",offsetX);
 
     for (NSInteger i =0.0f; i<=WavesWidth; i++) {
         //正弦函数波浪公式
@@ -127,8 +123,6 @@
         //将点连成线
         CGPathAddLineToPoint(path, nil, i, y);
     }
-    
-    NSLog(@"11111111--------%f",offsetX);
     
     CGPathAddLineToPoint(path, nil, WavesWidth, 0);
     CGPathAddLineToPoint(path, nil, 0, 0);
