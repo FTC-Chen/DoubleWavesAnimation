@@ -22,6 +22,8 @@
 		7BAF54461DFE705F00DFF5B0 /* 不同速度:振幅,相同周期非震荡.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7BAF54451DFE705F00DFF5B0 /* 不同速度:振幅,相同周期非震荡.gif */; };
 		7BAF54481DFE706300DFF5B0 /* 不同速度:振幅,相同周期:震荡.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7BAF54471DFE706300DFF5B0 /* 不同速度:振幅,相同周期:震荡.gif */; };
 		7BCCD5781E02769D00962E63 /* 同速度:振幅:周期,峰顶与峰底对应.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7BCCD5771E02769D00962E63 /* 同速度:振幅:周期,峰顶与峰底对应.gif */; };
+		A05CB5C51E32099500529CC2 /* MotionCurveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A05CB5C41E32099500529CC2 /* MotionCurveViewController.m */; };
+		A05CB5C81E320BE400529CC2 /* MotionCurveView.m in Sources */ = {isa = PBXBuildFile; fileRef = A05CB5C71E320BE400529CC2 /* MotionCurveView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,10 @@
 		7BAF54451DFE705F00DFF5B0 /* 不同速度:振幅,相同周期非震荡.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "不同速度:振幅,相同周期非震荡.gif"; sourceTree = "<group>"; };
 		7BAF54471DFE706300DFF5B0 /* 不同速度:振幅,相同周期:震荡.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "不同速度:振幅,相同周期:震荡.gif"; sourceTree = "<group>"; };
 		7BCCD5771E02769D00962E63 /* 同速度:振幅:周期,峰顶与峰底对应.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "同速度:振幅:周期,峰顶与峰底对应.gif"; sourceTree = "<group>"; };
+		A05CB5C31E32099500529CC2 /* MotionCurveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MotionCurveViewController.h; sourceTree = "<group>"; };
+		A05CB5C41E32099500529CC2 /* MotionCurveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MotionCurveViewController.m; sourceTree = "<group>"; };
+		A05CB5C61E320BE400529CC2 /* MotionCurveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MotionCurveView.h; sourceTree = "<group>"; };
+		A05CB5C71E320BE400529CC2 /* MotionCurveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MotionCurveView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +127,10 @@
 				7B10D2621DFE391F00DC90C6 /* AppDelegate.m */,
 				7B10D2641DFE391F00DC90C6 /* ViewController.h */,
 				7B10D2651DFE391F00DC90C6 /* ViewController.m */,
+				A05CB5C31E32099500529CC2 /* MotionCurveViewController.h */,
+				A05CB5C41E32099500529CC2 /* MotionCurveViewController.m */,
+				A05CB5C61E320BE400529CC2 /* MotionCurveView.h */,
+				A05CB5C71E320BE400529CC2 /* MotionCurveView.m */,
 				7B10D2671DFE391F00DC90C6 /* Main.storyboard */,
 				7BAF54381DFE4CBD00DFF5B0 /* FirstWaves.h */,
 				7BAF54391DFE4CBD00DFF5B0 /* FirstWaves.m */,
@@ -307,6 +317,8 @@
 				7BAF543A1DFE4CBD00DFF5B0 /* FirstWaves.m in Sources */,
 				7BAF54401DFE4E0400DFF5B0 /* SecondWaves.m in Sources */,
 				7B10D2631DFE391F00DC90C6 /* AppDelegate.m in Sources */,
+				A05CB5C81E320BE400529CC2 /* MotionCurveView.m in Sources */,
+				A05CB5C51E32099500529CC2 /* MotionCurveViewController.m in Sources */,
 				7B10D2601DFE391F00DC90C6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
